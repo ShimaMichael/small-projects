@@ -7,4 +7,6 @@ response = requests.get(url)
 
 if response.status_code == 200:
     post = response.json()
-    print(post[:2])
+    for p in post:
+        if p['id'] == 7:
+            print(p)
