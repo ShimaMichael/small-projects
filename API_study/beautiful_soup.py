@@ -1,7 +1,7 @@
 import requests
 import json
 
-SEARCHAPI_KEY = "tZpMw1YcE2Tc9cUPYvo5j11f"
+#SSEARCHAPI_KEY 
 
 def search_images_via_searchapi(query, api_key, max_results=10):
     endpoint = "https://www.searchapi.io/api/v1/search"
